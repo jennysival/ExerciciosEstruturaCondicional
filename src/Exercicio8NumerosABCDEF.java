@@ -23,13 +23,23 @@ public class Exercicio8NumerosABCDEF {
         int nF = leitor.nextInt();
 
         if (nA == nB){
-            System.out.println("O primeiro e segundo números são iguais");
+            System.out.println("Correto: O primeiro e segundo números são iguais");
+        }else{
+            System.out.println("Errado: O primeiro e segundo números são diferentes");
         }
+
+
         if (nC != nD){
-            System.out.println("O terceiro e quarto números são diferentes");
+            System.out.println("Correto: O terceiro e quarto números são diferentes");
+        }else{
+            System.out.println("Errado: O terceiro e quarto números são iguais");
         }
+
+
         if (nE > nF){
-            System.out.println("O quinto número é maior que o sexto número");
+            System.out.println("Correto: O quinto número é maior que o sexto número");
+        }else{
+            System.out.println("Errado: O quinto número é menor que o sexto número");
         }
     }
 }
